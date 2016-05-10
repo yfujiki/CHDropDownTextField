@@ -99,4 +99,16 @@
  */
 - (void)dropDownTextField:(CHDropDownTextField *)dropDownTextField didChooseDropDownOptionAtIndex:(NSUInteger)index;
 
+@optional
+
+/**
+ This is a hook that allows users to set values to custom UITableViewCell. Will be called from [UITableViewDelegate tableView:willDisplayCellAtIndexPath:].
+
+ @param dropDownTextField The textfield object that's calling the delegate.
+ @param tableView The tableView object that shows the dropdown.
+ @param cell The tableView cell which is about to display.
+ @param indexPath The indexPath of the cell within the tableView.
+ */
+- (void)dropDownTextField:(CHDropDownTextField *)dropDownTextField tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
+
 @end

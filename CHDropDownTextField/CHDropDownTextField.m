@@ -242,4 +242,7 @@ static CGFloat const CHDropDownTableViewSidePadding = 0;
     [self resignFirstResponder];
 }
 
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.dropDownDelegate dropDownTextField:self tableView:tableView willDisplayCell:cell forRowAtIndexPath:indexPath];
+}
 @end
