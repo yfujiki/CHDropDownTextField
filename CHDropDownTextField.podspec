@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Rogelio Gudino" => "cananito@gmail.com", "Matthew Morey" => "me@matthewmorey.com", "Osama Ashawa" => "osama@oashawa.com" }
   s.social_media_url = 'https://twitter.com/cananito'
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/chaione/CHDropDownTextField.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/yfujiki/CHDropDownTextField.git", :tag => "1.0.1" }
   s.source_files = "CHDropDownTextField/*.{h,m}"
   s.requires_arc = true
 end
