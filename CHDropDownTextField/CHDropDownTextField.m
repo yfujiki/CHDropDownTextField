@@ -119,6 +119,11 @@ static CGFloat const CHDropDownTableViewSidePadding = 0;
     }
 }
 
+- (void)setDropDownTableViewCellHeight:(CGFloat)dropDownTableViewCellHeight {
+    _dropDownTableViewCellHeight = dropDownTableViewCellHeight;
+    self.dropDownTableView.rowHeight = dropDownTableViewCellHeight;
+}
+
 #pragma mark - Accessors
 
 - (UITableView *)dropDownTableView {
