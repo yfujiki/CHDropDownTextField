@@ -78,6 +78,11 @@
 @property (nonatomic, strong, readonly) UITableView *dropDownTableView;
 
 /**
+ The drop-down table cell height. By default, it is 44.
+ */
+@property (nonatomic) CGFloat dropDownTableViewCellHeight;
+
+/**
  The receiver’s drop-down delegate.
  */
 @property (nonatomic, assign) IBOutlet id<CHDropDownTextFieldDelegate> dropDownDelegate;

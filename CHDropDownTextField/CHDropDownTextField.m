@@ -79,6 +79,7 @@ static CGFloat const CHDropDownTableViewSidePadding = 0;
     
     self.clipsToBounds = NO;
     _canPaste = YES;
+    _dropDownTableViewCellHeight = CHDropDownTextFieldTableViewCellHeight;
     _cellClass = [CHDropDownTextFieldTableViewCell class];
 }
 
@@ -151,7 +152,7 @@ static CGFloat const CHDropDownTableViewSidePadding = 0;
     frame.origin.x = CHDropDownTableViewSidePadding;
     frame.origin.y = CGRectGetHeight(self.bounds);
     frame.size.width = CGRectGetWidth(self.bounds) - (CHDropDownTableViewSidePadding * 2);
-    frame.size.height = self.dropDownTableVisibleRowCount * CHDropDownTextFieldTableViewCellHeight;
+    frame.size.height = self.dropDownTableVisibleRowCount * self.dropDownTableViewCellHeight;
     self.dropDownTableView.frame = frame;
 }
 
