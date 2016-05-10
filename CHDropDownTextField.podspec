@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CHDropDownTextField"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A custom text field with drop-down support."
   s.description  = <<-DESC
                    A custom text field with drop-down support. Mainly useful for auto-complete suggestions.
