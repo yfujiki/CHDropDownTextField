@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "717C79A6AE63EF961E45816F1F5543A7AEE2761A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "717C79A6AE63EF961E45816F1F5543A7AEE2761A" : 9223372036854775807,
+    "2648740D60E177C6A012703CF301CBE76D570291" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31A604C6-AA3F-473D-96E4-E01DBFDDC5BA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "717C79A6AE63EF961E45816F1F5543A7AEE2761A" : "CHDropDownTextField\/",
+    "2648740D60E177C6A012703CF301CBE76D570291" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CHDropDownTextFieldExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CHDropDownTextFieldExample\/CHDropDownTextFieldExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.chaione.com:joe\/Exelon-FontSpike.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2648740D60E177C6A012703CF301CBE76D570291"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yfujiki\/CHDropDownTextField.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "717C79A6AE63EF961E45816F1F5543A7AEE2761A"
+    }
+  ]
+}
