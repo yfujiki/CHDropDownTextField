@@ -22,7 +22,8 @@
 		42A5B983198C584E00C3BCC1 /* CHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5B982198C584E00C3BCC1 /* CHViewController.m */; };
 		42A5B98C198C692300C3BCC1 /* Main-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A5B98B198C692300C3BCC1 /* Main-iPhone.storyboard */; };
 		42B3B3BC19900A87009CFBB5 /* CHCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3B3BB19900A87009CFBB5 /* CHCustomTableViewCell.m */; };
-		DB57B1961EB3DAB800B19BAA /* CHDropDownTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DB57B1941EB3DAB800B19BAA /* CHDropDownTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490251EB44E9300EA75CB /* CHDropDownTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A5B985198C58AF00C3BCC1 /* CHDropDownTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490261EB44E9300EA75CB /* CHDropDownTextFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A5B987198C58AF00C3BCC1 /* CHDropDownTextFieldTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB57B1991EB3DAB800B19BAA /* CHDropDownTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB57B1921EB3DAB800B19BAA /* CHDropDownTextField.framework */; };
 		DB57B19A1EB3DAB800B19BAA /* CHDropDownTextField.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB57B1921EB3DAB800B19BAA /* CHDropDownTextField.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DB57B1A01EB3DAC500B19BAA /* CHDropDownTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5B986198C58AF00C3BCC1 /* CHDropDownTextField.m */; };
@@ -229,7 +230,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB57B1961EB3DAB800B19BAA /* CHDropDownTextField.h in Headers */,
+				DB4490251EB44E9300EA75CB /* CHDropDownTextField.h in Headers */,
+				DB4490261EB44E9300EA75CB /* CHDropDownTextFieldTableViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +686,7 @@
 				DB57B19C1EB3DAB800B19BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
